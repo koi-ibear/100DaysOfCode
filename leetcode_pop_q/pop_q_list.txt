@@ -1,0 +1,1243 @@
+google:
+1007        Minimum Domino Rotations For Equal Row        Medium
+843        Guess the Word        Hard
+1088        Confusing Number II        Hard
+1153        String Transforms Into Another String        Hard
+809        Expressive Words        Medium
+1055        Shortest Way to Form String        Medium
+1110        Delete Nodes And Return Forest        Medium
+1231        Divide Chocolate        Hard
+659        Split Array into Consecutive Subsequences        Medium
+1        Two Sum        Easy
+363        Max Sum of Rectangle No Larger Than K        Hard
+359        Logger Rate Limiter        Easy
+465        Optimal Account Balancing        Hard
+1170        Compare Strings by Frequency of the Smallest Character        Easy
+752        Open the Lock        Medium
+222        Count Complete Tree Nodes        Medium
+801        Minimum Swaps To Make Sequences Increasing        Medium
+299        Bulls and Cows        Easy
+727        Minimum Window Subsequence        Hard
+679        24 Game        Hard
+410        Split Array Largest Sum        Hard
+430        Flatten a Multilevel Doubly Linked List        Medium
+846        Hand of Straights        Medium
+315        Count of Smaller Numbers After Self        Hard
+1074        Number of Submatrices That Sum to Target        Hard
+642        Design Search Autocomplete System        Hard
+552        Student Attendance Record II        Hard
+946        Validate Stack Sequences        Medium
+482        License Key Formatting        Easy
+1320        Minimum Distance to Type a Word Using Two Fingers        Hard
+939        Minimum Area Rectangle        Medium
+951        Flip Equivalent Binary Trees        Medium
+835        Image Overlap        Medium
+489        Robot Room Cleaner        Hard
+248        Strobogrammatic Number III        Hard
+1146        Snapshot Array        Medium
+221        Maximal Square        Medium
+362        Design Hit Counter        Medium
+1057        Campus Bikes        Medium
+68        Text Justification        Hard
+1292        Maximum Side Length of a Square with Sum Less than or Equal to Threshold        Medium
+947        Most Stones Removed with Same Row or Column        Medium
+562        Longest Line of Consecutive One in Matrix        Medium
+729        My Calendar I        Medium
+528        Random Pick with Weight        Medium
+1032        Stream of Characters        Hard
+924        Minimize Malware Spread        Hard
+681        Next Closest Time        Medium
+593        Valid Square        Medium
+862        Shortest Subarray with Sum at Least K        Hard
+317        Shortest Distance from All Buildings        Hard
+743        Network Delay Time        Medium
+1011        Capacity To Ship Packages Within D Days        Medium
+271        Encode and Decode Strings        Medium
+1048        Longest String Chain        Medium
+336        Palindrome Pairs        Hard
+726        Number of Atoms        Hard
+444        Sequence Reconstruction        Medium
+889        Construct Binary Tree from Preorder and Postorder Traversal        Medium
+57        Insert Interval        Hard
+1284        Minimum Number of Flips to Convert Binary Matrix to Zero Matrix        Hard
+295        Find Median from Data Stream        Hard
+1219        Path with Maximum Gold        Medium
+399        Evaluate Division        Medium
+1031        Maximum Sum of Two Non-Overlapping Subarrays        Medium
+853        Car Fleet        Medium
+772        Basic Calculator III        Hard
+329        Longest Increasing Path in a Matrix        Hard
+1197        Minimum Knight Moves        Medium
+774        Minimize Max Distance to Gas Station        Hard
+913        Cat and Mouse        Hard
+1203        Sort Items by Groups Respecting Dependencies        Hard
+459        Repeated Substring Pattern        Easy
+1087        Brace Expansion        Medium
+1240        Tiling a Rectangle with the Fewest Squares        Hard
+369        Plus One Linked List        Medium
+1096        Brace Expansion II        Hard
+76        Minimum Window Substring        Hard
+737        Sentence Similarity II        Medium
+844        Backspace String Compare        Easy
+767        Reorganize String        Medium
+632        Smallest Range Covering Elements from K Lists        Hard
+914        X of a Kind in a Deck of Cards        Easy
+304        Range Sum Query 2D - Immutable        Medium
+833        Find And Replace in String        Medium
+56        Merge Intervals        Medium
+925        Long Pressed Name        Easy
+777        Swap Adjacent in LR String        Medium
+722        Remove Comments        Medium
+1157        Online Majority Element In Subarray        Hard
+53        Maximum Subarray        Easy
+837        New 21 Game        Medium
+1209        Remove All Adjacent Duplicates in String II        Medium
+950        Reveal Cards In Increasing Order        Medium
+1145        Binary Tree Coloring Game        Medium
+460        LFU Cache        Hard
+320        Generalized Abbreviation        Medium
+855        Exam Room        Medium
+208        Implement Trie (Prefix Tree)        Medium
+209        Minimum Size Subarray Sum        Medium
+298        Binary Tree Longest Consecutive Sequence        Medium
+1136        Parallel Courses        Hard
+158        Read N Characters Given Read4 II - Call multiple times        Hard
+1168        Optimize Water Distribution in a Village        Hard
+200        Number of Islands        Medium
+394        Decode String        Medium
+360        Sort Transformed Array        Medium
+1062        Longest Repeating Substring        Medium
+354        Russian Doll Envelopes        Hard
+753        Cracking the Safe        Hard
+604        Design Compressed String Iterator        Easy
+981        Time Based Key-Value Store        Medium
+1155        Number of Dice Rolls With Target Sum        Medium
+817        Linked List Components        Medium
+353        Design Snake Game        Medium
+792        Number of Matching Subsequences        Medium
+1277        Count Square Submatrices with All Ones        Medium
+1056        Confusing Number        Easy
+731        My Calendar II        Medium
+560        Subarray Sum Equals K        Medium
+340        Longest Substring with At Most K Distinct Characters        Hard
+424        Longest Repeating Character Replacement        Medium
+174        Dungeon Game        Hard
+815        Bus Routes        Hard
+720        Longest Word in Dictionary        Easy
+23        Merge k Sorted Lists        Hard
+895        Maximum Frequency Stack        Hard
+1293        Shortest Path in a Grid with Obstacles Elimination        Hard
+949        Largest Time for Given Digits        Easy
+115        Distinct Subsequences        Hard
+146        LRU Cache        Medium
+723        Candy Crush        Medium
+393        UTF-8 Validation        Medium
+64        Minimum Path Sum        Medium
+2        Add Two Numbers        Medium
+721        Accounts Merge        Medium
+1000        Minimum Cost to Merge Stones        Hard
+1188        Design Bounded Blocking Queue        Medium
+130        Surrounded Regions        Medium
+198        House Robber        Easy
+85        Maximal Rectangle        Hard
+325        Maximum Size Subarray Sum Equals k        Medium
+212        Word Search II        Hard
+361        Bomb Enemy        Medium
+705        Design HashSet        Easy
+91        Decode Ways        Medium
+852        Peak Index in a Mountain Array        Easy
+351        Android Unlock Patterns        Medium
+802        Find Eventual Safe States        Medium
+1105        Filling Bookcase Shelves        Medium
+346        Moving Average from Data Stream        Easy
+845        Longest Mountain in Array        Medium
+4        Median of Two Sorted Arrays        Hard
+549        Binary Tree Longest Consecutive Sequence II        Medium
+719        Find K-th Smallest Pair Distance        Hard
+307        Range Sum Query - Mutable        Medium
+17        Letter Combinations of a Phone Number        Medium
+380        Insert Delete GetRandom O(1)        Medium
+163        Missing Ranges        Medium
+332        Reconstruct Itinerary        Medium
+139        Word Break        Medium
+34        Find First and Last Position of Element in Sorted Array        Medium
+218        The Skyline Problem        Hard
+662        Maximum Width of Binary Tree        Medium
+134        Gas Station        Medium
+43        Multiply Strings        Medium
+239        Sliding Window Maximum        Hard
+42        Trapping Rain Water        Hard
+246        Strobogrammatic Number        Easy
+692        Top K Frequent Words        Medium
+286        Walls and Gates        Medium
+31        Next Permutation        Medium
+986        Interval List Intersections        Medium
+140        Word Break II        Hard
+99        Recover Binary Search Tree        Hard
+33        Search in Rotated Sorted Array        Medium
+3        Longest Substring Without Repeating Characters        Medium
+210        Course Schedule II        Medium
+228        Summary Ranges        Medium
+708        Insert into a Sorted Circular Linked List        Medium
+16        3Sum Closest        Medium
+524        Longest Word in Dictionary through Deleting        Medium
+45        Jump Game II        Hard
+72        Edit Distance        Hard
+15        3Sum        Medium
+162        Find Peak Element        Medium
+128        Longest Consecutive Sequence        Hard
+137        Single Number II        Medium
+10        Regular Expression Matching        Hard
+205        Isomorphic Strings        Easy
+96        Unique Binary Search Trees        Medium
+1267        Count Servers that Communicate        Medium
+392        Is Subsequence        Easy
+253        Meeting Rooms II        Medium
+166        Fraction to Recurring Decimal        Medium
+438        Find All Anagrams in a String        Medium
+247        Strobogrammatic Number II        Medium
+337        House Robber III        Medium
+567        Permutation in String        Medium
+706        Design HashMap        Easy
+490        The Maze        Medium
+316        Remove Duplicate Letters        Hard
+480        Sliding Window Median        Hard
+202        Happy Number        Easy
+551        Student Attendance Record I        Easy
+284        Peeking Iterator        Medium
+652        Find Duplicate Subtrees        Medium
+173        Binary Search Tree Iterator        Medium
+609        Find Duplicate File in System        Medium
+931        Minimum Falling Path Sum        Medium
+274        H-Index        Medium
+5        Longest Palindromic Substring        Medium
+773        Sliding Puzzle        Hard
+821        Shortest Distance to a Character        Easy
+328        Odd Even Linked List        Medium
+1123        Lowest Common Ancestor of Deepest Leaves        Medium
+150        Evaluate Reverse Polish Notation        Medium
+97        Interleaving String        Hard
+310        Minimum Height Trees        Medium
+94        Binary Tree Inorder Traversal        Medium
+215        Kth Largest Element in an Array        Medium
+724        Find Pivot Index        Easy
+282        Expression Add Operators        Hard
+417        Pacific Atlantic Water Flow        Medium
+373        Find K Pairs with Smallest Sums        Medium
+849        Maximize Distance to Closest Person        Easy
+1060        Missing Element in Sorted Array        Medium
+498        Diagonal Traverse        Medium
+30        Substring with Concatenation of All Words        Hard
+124        Binary Tree Maximum Path Sum        Hard
+1051        Height Checker        Easy
+54        Spiral Matrix        Medium
+127        Word Ladder        Medium
+958        Check Completeness of a Binary Tree        Medium
+46        Permutations        Medium
+658        Find K Closest Elements        Medium
+165        Compare Version Numbers        Medium
+207        Course Schedule        Medium
+55        Jump Game        Medium
+636        Exclusive Time of Functions        Medium
+63        Unique Paths II        Medium
+309        Best Time to Buy and Sell Stock with Cooldown        Medium
+236        Lowest Common Ancestor of a Binary Tree        Medium
+36        Valid Sudoku        Medium
+389        Find the Difference        Easy
+322        Coin Change        Medium
+168        Excel Sheet Column Title        Easy
+149        Max Points on a Line        Hard
+20        Valid Parentheses        Easy
+41        First Missing Positive        Hard
+1047        Remove All Adjacent Duplicates In String        Easy
+297        Serialize and Deserialize Binary Tree        Hard
+374        Guess Number Higher or Lower        Easy
+443        String Compression        Easy
+49        Group Anagrams        Medium
+8        String to Integer (atoi)        Medium
+349        Intersection of Two Arrays        Easy
+269        Alien Dictionary        Hard
+117        Populating Next Right Pointers in Each Node II        Medium
+227        Basic Calculator II        Medium
+77        Combinations        Medium
+152        Maximum Product Subarray        Medium
+785        Is Graph Bipartite?        Medium
+238        Product of Array Except Self        Medium
+21        Merge Two Sorted Lists        Easy
+136        Single Number        Easy
+67        Add Binary        Easy
+283        Move Zeroes        Easy
+665        Non-decreasing Array        Easy
+79        Word Search        Medium
+289        Game of Life        Medium
+1143        Longest Common Subsequence        Medium
+50        Pow(x, n)        Medium
+226        Invert Binary Tree        Easy
+273        Integer to English Words        Hard
+219        Contains Duplicate II        Easy
+169        Majority Element        Easy
+18        4Sum        Medium
+84        Largest Rectangle in Histogram        Hard
+543        Diameter of Binary Tree        Easy
+647        Palindromic Substrings        Medium
+190        Reverse Bits        Easy
+122        Best Time to Buy and Sell Stock II        Easy
+22        Generate Parentheses        Medium
+113        Path Sum II        Medium
+121        Best Time to Buy and Sell Stock        Easy
+40        Combination Sum II        Medium
+203        Remove Linked List Elements        Easy
+66        Plus One        Easy
+145        Binary Tree Postorder Traversal        Hard
+38        Count and Say        Easy
+12        Integer to Roman        Medium
+572        Subtree of Another Tree        Easy
+118        Pascal's Triangle        Easy
+105        Construct Binary Tree from Preorder and Inorder Traversal        Medium
+14        Longest Common Prefix        Easy
+977        Squares of a Sorted Array        Easy
+11        Container With Most Water        Medium
+153        Find Minimum in Rotated Sorted Array        Medium
+7        Reverse Integer        Easy
+300        Longest Increasing Subsequence        Medium
+412        Fizz Buzz        Easy
+104        Maximum Depth of Binary Tree        Easy
+75        Sort Colors        Medium
+237        Delete Node in a Linked List        Easy
+9        Palindrome Number        Easy
+167        Two Sum II - Input array is sorted        Easy
+287        Find the Duplicate Number        Medium
+78        Subsets        Medium
+1281        Subtract the Product and Sum of Digits of an Integer        Easy
+39        Combination Sum        Medium
+35        Search Insert Position        Easy
+242        Valid Anagram        Easy
+88        Merge Sorted Array        Easy
+28        Implement strStr()        Easy
+344        Reverse String        Easy
+98        Validate Binary Search Tree        Medium
+206        Reverse Linked List        Easy
+
+
+
+facebook:
+953        Verifying an Alien Dictionary        Easy               
+301        Remove Invalid Parentheses        Hard               
+1249        Minimum Remove to Make Valid Parentheses        Medium               
+973        K Closest Points to Origin        Medium               
+560        Subarray Sum Equals K        Medium               
+680        Valid Palindrome II        Easy               
+238        Product of Array Except Self        Medium               
+124        Binary Tree Maximum Path Sum        Hard               
+67        Add Binary        Easy               
+273        Integer to English Words        Hard               
+297        Serialize and Deserialize Binary Tree        Hard               
+426        Convert Binary Search Tree to Sorted Doubly Linked List        Medium               
+282        Expression Add Operators        Hard               
+269        Alien Dictionary        Hard               
+523        Continuous Subarray Sum        Medium               
+438        Find All Anagrams in a String        Medium               
+199        Binary Tree Right Side View        Medium               
+415        Add Strings        Easy               
+125        Valid Palindrome        Easy               
+23        Merge k Sorted Lists        Hard               
+76        Minimum Window Substring        Hard               
+211        Add and Search Word - Data structure design        Medium               
+158        Read N Characters Given Read4 II - Call multiple times        Hard               
+139        Word Break        Medium               
+278        First Bad Version        Easy               
+621        Task Scheduler        Medium               
+543        Diameter of Binary Tree        Easy               
+340        Longest Substring with At Most K Distinct Characters        Hard               
+986        Interval List Intersections        Medium               
+636        Exclusive Time of Functions        Medium               
+173        Binary Search Tree Iterator        Medium               
+31        Next Permutation        Medium               
+349        Intersection of Two Arrays        Easy               
+215        Kth Largest Element in an Array        Medium               
+133        Clone Graph        Medium               
+785        Is Graph Bipartite?        Medium               
+56        Merge Intervals        Medium               
+721        Accounts Merge        Medium               
+98        Validate Binary Search Tree        Medium               
+65        Valid Number        Hard               
+398        Random Pick Index        Medium               
+767        Reorganize String        Medium               
+1060        Missing Element in Sorted Array        Medium               
+689        Maximum Sum of 3 Non-Overlapping Subarrays        Hard               
+987        Vertical Order Traversal of a Binary Tree        Medium               
+311        Sparse Matrix Multiplication        Medium               
+286        Walls and Gates        Medium               
+824        Goat Latin        Easy               
+33        Search in Rotated Sorted Array        Medium               
+140        Word Break II        Hard               
+34        Find First and Last Position of Element in Sorted Array        Medium               
+71        Simplify Path        Medium               
+1197        Minimum Knight Moves        Medium               
+528        Random Pick with Weight        Medium               
+29        Divide Two Integers        Medium               
+88        Merge Sorted Array        Easy               
+247        Strobogrammatic Number II        Medium               
+304        Range Sum Query 2D - Immutable        Medium               
+1004        Max Consecutive Ones III        Medium               
+708        Insert into a Sorted Circular Linked List        Medium               
+143        Reorder List        Medium               
+863        All Nodes Distance K in Binary Tree        Medium               
+314        Binary Tree Vertical Order Traversal        Medium               
+253        Meeting Rooms II        Medium               
+200        Number of Islands        Medium               
+236        Lowest Common Ancestor of a Binary Tree        Medium               
+246        Strobogrammatic Number        Easy               
+825        Friends Of Appropriate Ages        Medium               
+146        LRU Cache        Medium               
+43        Multiply Strings        Medium               
+896        Monotonic Array        Easy               
+270        Closest Binary Search Tree Value        Easy               
+1027        Longest Arithmetic Sequence        Medium               
+162        Find Peak Element        Medium               
+380        Insert Delete GetRandom O(1)        Medium               
+249        Group Shifted Strings        Medium               
+452        Minimum Number of Arrows to Burst Balloons        Medium               
+958        Check Completeness of a Binary Tree        Medium               
+938        Range Sum of BST        Easy               
+138        Copy List with Random Pointer        Medium               
+1216        Valid Palindrome III        Hard               
+498        Diagonal Traverse        Medium               
+670        Maximum Swap        Medium               
+32        Longest Valid Parentheses        Hard               
+865        Smallest Subtree with all the Deepest Nodes        Medium               
+480        Sliding Window Median        Hard               
+963        Minimum Area Rectangle II        Medium               
+921        Minimum Add to Make Parentheses Valid        Medium               
+50        Pow(x, n)        Medium               
+494        Target Sum        Medium               
+350        Intersection of Two Arrays II        Easy               
+227        Basic Calculator II        Medium               
+647        Palindromic Substrings        Medium               
+616        Add Bold Tag in String        Medium               
+257        Binary Tree Paths        Easy               
+347        Top K Frequent Elements        Medium               
+1269        Number of Ways to Stay in the Same Place After Some Steps        Hard               
+549        Binary Tree Longest Consecutive Sequence II        Medium               
+766        Toeplitz Matrix        Easy               
+42        Trapping Rain Water        Hard               
+15        3Sum        Medium               
+839        Similar String Groups        Hard               
+339        Nested List Weight Sum        Easy               
+490        The Maze        Medium               
+10        Regular Expression Matching        Hard               
+1094        Car Pooling        Medium               
+692        Top K Frequent Words        Medium               
+114        Flatten Binary Tree to Linked List        Medium               
+348        Design Tic-Tac-Toe        Medium               
+529        Minesweeper        Medium               
+568        Maximum Vacation Days        Hard               
+1123        Lowest Common Ancestor of Deepest Leaves        Medium               
+22        Generate Parentheses        Medium               
+463        Island Perimeter        Easy               
+126        Word Ladder II        Hard               
+416        Partition Equal Subset Sum        Medium               
+79        Word Search        Medium               
+1146        Snapshot Array        Medium               
+334        Increasing Triplet Subsequence        Medium               
+266        Palindrome Permutation        Easy               
+78        Subsets        Medium               
+91        Decode Ways        Medium               
+127        Word Ladder        Medium               
+678        Valid Parenthesis String        Medium               
+157        Read N Characters Given Read4        Easy               
+75        Sort Colors        Medium               
+969        Pancake Sorting        Medium               
+109        Convert Sorted List to Binary Search Tree        Medium               
+1        Two Sum        Easy               
+336        Palindrome Pairs        Hard               
+428        Serialize and Deserialize N-ary Tree        Hard               
+394        Decode String        Medium               
+111        Minimum Depth of Binary Tree        Easy               
+239        Sliding Window Maximum        Hard               
+277        Find the Celebrity        Medium               
+240        Search a 2D Matrix II        Medium               
+3        Longest Substring Without Repeating Characters        Medium               
+788        Rotated Digits        Easy               
+319        Bulb Switcher        Medium               
+325        Maximum Size Subarray Sum Equals k        Medium               
+212        Word Search II        Hard               
+161        One Edit Distance        Medium               
+223        Rectangle Area        Medium               
+210        Course Schedule II        Medium               
+791        Custom Sort String        Medium               
+637        Average of Levels in Binary Tree        Easy               
+1245        Tree Diameter        Medium               
+540        Single Element in a Sorted Array        Medium               
+166        Fraction to Recurring Decimal        Medium               
+419        Battleships in a Board        Medium               
+778        Swim in Rising Water        Hard               
+567        Permutation in String        Medium               
+207        Course Schedule        Medium               
+129        Sum Root to Leaf Numbers        Medium               
+2        Add Two Numbers        Medium               
+417        Pacific Atlantic Water Flow        Medium               
+515        Find Largest Value in Each Tree Row        Medium               
+676        Implement Magic Dictionary        Medium               
+1213        Intersection of Three Sorted Arrays        Easy               
+378        Kth Smallest Element in a Sorted Matrix        Medium               
+352        Data Stream as Disjoint Intervals        Hard               
+312        Burst Balloons        Hard               
+977        Squares of a Sorted Array        Easy               
+489        Robot Room Cleaner        Hard               
+8        String to Integer (atoi)        Medium               
+20        Valid Parentheses        Easy               
+121        Best Time to Buy and Sell Stock        Easy               
+505        The Maze II        Medium               
+53        Maximum Subarray        Easy               
+855        Exam Room        Medium               
+298        Binary Tree Longest Consecutive Sequence        Medium               
+1008        Construct Binary Search Tree from Preorder Traversal        Medium               
+614        Second Degree Follower        Medium               
+5        Longest Palindromic Substring        Medium               
+388        Longest Absolute File Path        Medium               
+658        Find K Closest Elements        Medium               
+772        Basic Calculator III        Hard               
+442        Find All Duplicates in an Array        Medium               
+128        Longest Consecutive Sequence        Hard               
+305        Number of Islands II        Hard               
+230        Kth Smallest Element in a BST        Medium               
+679        24 Game        Hard               
+19        Remove Nth Node From End of List        Medium               
+674        Longest Continuous Increasing Subsequence        Easy               
+1091        Shortest Path in Binary Matrix        Medium               
+105        Construct Binary Tree from Preorder and Inorder Traversal        Medium               
+93        Restore IP Addresses        Medium               
+681        Next Closest Time        Medium               
+516        Longest Palindromic Subsequence        Medium               
+317        Shortest Distance from All Buildings        Hard               
+341        Flatten Nested List Iterator        Medium               
+224        Basic Calculator        Hard               
+242        Valid Anagram        Easy               
+283        Move Zeroes        Easy               
+74        Search a 2D Matrix        Medium               
+468        Validate IP Address        Medium               
+875        Koko Eating Bananas        Medium               
+329        Longest Increasing Path in a Matrix        Hard               
+983        Minimum Cost For Tickets        Medium               
+73        Set Matrix Zeroes        Medium               
+939        Minimum Area Rectangle        Medium               
+214        Shortest Palindrome        Hard               
+57        Insert Interval        Hard               
+21        Merge Two Sorted Lists        Easy               
+102        Binary Tree Level Order Traversal        Medium               
+364        Nested List Weight Sum II        Medium               
+1026        Maximum Difference Between Node and Ancestor        Medium               
+46        Permutations        Medium               
+844        Backspace String Compare        Easy               
+39        Combination Sum        Medium               
+323        Number of Connected Components in an Undirected Graph        Medium               
+295        Find Median from Data Stream        Hard               
+13        Roman to Integer        Easy               
+41        First Missing Positive        Hard               
+852        Peak Index in a Mountain Array        Easy               
+17        Letter Combinations of a Phone Number        Medium               
+159        Longest Substring with At Most Two Distinct Characters        Medium               
+153        Find Minimum in Rotated Sorted Array        Medium               
+395        Longest Substring with At Least K Repeating Characters        Medium               
+1219        Path with Maximum Gold        Medium               
+160        Intersection of Two Linked Lists        Easy               
+410        Split Array Largest Sum        Hard               
+24        Swap Nodes in Pairs        Medium               
+209        Minimum Size Subarray Sum        Medium               
+4        Median of Two Sorted Arrays        Hard               
+435        Non-overlapping Intervals        Medium               
+229        Majority Element II        Medium               
+137        Single Number II        Medium               
+37        Sudoku Solver        Hard               
+62        Unique Paths        Medium               
+116        Populating Next Right Pointers in Each Node        Medium               
+346        Moving Average from Data Stream        Easy               
+328        Odd Even Linked List        Medium               
+703        Kth Largest Element in a Stream        Easy               
+51        N-Queens        Hard               
+208        Implement Trie (Prefix Tree)        Medium               
+414        Third Maximum Number        Easy               
+1108        Defanging an IP Address        Easy               
+332        Reconstruct Itinerary        Medium               
+178        Rank Scores        Medium               
+44        Wildcard Matching        Hard               
+117        Populating Next Right Pointers in Each Node II        Medium               
+152        Maximum Product Subarray        Medium               
+724        Find Pivot Index        Easy               
+148        Sort List        Medium               
+445        Add Two Numbers II        Medium               
+695        Max Area of Island        Medium               
+48        Rotate Image        Medium               
+437        Path Sum III        Easy               
+387        First Unique Character in a String        Easy               
+63        Unique Paths II        Medium               
+221        Maximal Square        Medium               
+113        Path Sum II        Medium               
+26        Remove Duplicates from Sorted Array        Easy               
+40        Combination Sum II        Medium               
+28        Implement strStr()        Easy               
+49        Group Anagrams        Medium               
+112        Path Sum        Easy               
+16        3Sum Closest        Medium               
+136        Single Number        Easy               
+118        Pascal's Triangle        Easy               
+509        Fibonacci Number        Easy               
+11        Container With Most Water        Medium               
+7        Reverse Integer        Easy               
+344        Reverse String        Easy               
+300        Longest Increasing Subsequence        Medium               
+54        Spiral Matrix        Medium               
+108        Convert Sorted Array to Binary Search Tree        Easy               
+70        Climbing Stairs        Easy               
+104        Maximum Depth of Binary Tree        Easy               
+206        Reverse Linked List        Easy               
+
+
+Amazon:
+NA        1192        Critical Connections in a Network        Hard               
+200        Number of Islands        Medium               
+NA        994        Rotting Oranges        Easy               
+NA        138        Copy List with Random Pointer         Medium               
+NA        937        Reorder Data in Log Files        Easy               
+572        Subtree of Another Tree        Easy               
+NA        819        Most Common Word        Easy               
+5        Longest Palindromic Substring        Medium               
+NA        240        Search a 2D Matrix II        Medium               
+1        Two Sum        Easy               
+21        Merge Two Sorted Lists        Easy               
+146        LRU Cache        Medium               
+NA        472        Concatenated Words        Hard               
+NA        973        K Closest Points to Origin        Medium               
+NA        957        Prison Cells After N Days        Medium               
+NA        1268        Search Suggestions System        Medium               
+295        Find Median from Data Stream        Hard               
+NA        1167        Minimum Cost to Connect Sticks        Medium               
+692        Top K Frequent Words        Medium               
+42        Trapping Rain Water        Hard               
+642        Design Search Autocomplete System        Hard               
+NA        1102        Path With Maximum Minimum Value        Medium               
+23        Merge k Sorted Lists        Hard               
+NA        126        Word Ladder II        Hard               
+140        Word Break II        Hard               
+297        Serialize and Deserialize Binary Tree        Hard               
+NA        866        Prime Palindrome        Medium               
+212        Word Search II        Hard               
+460        LFU Cache        Hard               
+127        Word Ladder        Medium               
+1000        Minimum Cost to Merge Stones        Hard               
+NA        588        Design In-Memory File System        Hard               
+NA        348        Design Tic-Tac-Toe        Medium               
+NA        456        132 Pattern        Medium               
+253        Meeting Rooms II        Medium               
+NA        694        Number of Distinct Islands        Medium               
+49        Group Anagrams        Medium               
+239        Sliding Window Maximum        Hard               
+273        Integer to English Words        Hard               
+20        Valid Parentheses        Easy               
+NA        545        Boundary of Binary Tree        Medium               
+NA        1152        Analyze User Website Visit Pattern        Medium               
+NA        1044        Longest Duplicate Substring        Hard               
+NA        347        Top K Frequent Elements        Medium               
+NA        1099        Two Sum Less Than K        Easy               
+99        Recover Binary Search Tree        Hard               
+770        Basic Calculator IV        Hard               
+980        Unique Paths III        Hard               
+121        Best Time to Buy and Sell Stock        Easy               
+NA        155        Min Stack        Easy               
+1155        Number of Dice Rolls With Target Sum        Medium               
+380        Insert Delete GetRandom O(1)        Medium               
+NA        74        Search a 2D Matrix        Medium               
+981        Time Based Key-Value Store        Medium               
+NA        103        Binary Tree Zigzag Level Order Traversal        Medium               
+NA        675        Cut Off Trees for Golf Event        Hard               
+3        Longest Substring Without Repeating Characters        Medium               
+2        Add Two Numbers        Medium               
+139        Word Break        Medium               
+15        3Sum        Medium               
+NA        759        Employee Free Time        Hard               
+33        Search in Rotated Sorted Array        Medium               
+NA        733        Flood Fill        Easy               
+NA        863        All Nodes Distance K in Binary Tree        Medium               
+238        Product of Array Except Self        Medium               
+NA        1236        Web Crawler        Medium               
+772        Basic Calculator III        Hard               
+322        Coin Change        Medium               
+64        Minimum Path Sum        Medium               
+NA        143        Reorder List        Medium               
+706        Design HashMap        Easy               
+NA        535        Encode and Decode TinyURL        Medium               
+767        Reorganize String        Medium               
+53        Maximum Subarray        Easy               
+54        Spiral Matrix        Medium               
+NA        739        Daily Temperatures        Medium               
+490        The Maze        Medium               
+NA        622        Design Circular Queue        Medium               
+NA        224        Basic Calculator        Hard               
+NA        116        Populating Next Right Pointers in Each Node        Medium               
+NA        449        Serialize and Deserialize BST        Medium               
+NA        109        Convert Sorted List to Binary Search Tree        Medium               
+NA        503        Next Greater Element II        Medium               
+12        Integer to Roman        Medium               
+NA        133        Clone Graph        Medium               
+NA        1172        Dinner Plate Stacks        Hard               
+206        Reverse Linked List        Easy               
+79        Word Search        Medium               
+NA        909        Snakes and Ladders        Medium               
+289        Game of Life        Medium               
+45        Jump Game II        Hard               
+NA        173        Binary Search Tree Iterator        Medium               
+17        Letter Combinations of a Phone Number        Medium               
+124        Binary Tree Maximum Path Sum        Hard               
+NA        628        Maximum Product of Three Numbers        Easy               
+11        Container With Most Water        Medium               
+NA        314        Binary Tree Vertical Order Traversal        Medium               
+NA        556        Next Greater Element III        Medium               
+NA        1038        Binary Search Tree to Greater Sum Tree        Medium               
+NA        1100        Find K-Length Substrings With No Repeated Characters        Medium               
+236        Lowest Common Ancestor of a Binary Tree        Medium               
+NA        1066        Campus Bikes II        Medium               
+NA        496        Next Greater Element I        Easy               
+NA        854        K-Similar Strings        Hard               
+NA        978        Longest Turbulent Subarray        Medium               
+815        Bus Routes        Hard               
+1011        Capacity To Ship Packages Within D Days        Medium               
+269        Alien Dictionary        Hard               
+1031        Maximum Sum of Two Non-Overlapping Subarrays        Medium               
+91        Decode Ways        Medium               
+NA        963        Minimum Area Rectangle II        Medium               
+97        Interleaving String        Hard               
+NA        437        Path Sum III        Easy               
+210        Course Schedule II        Medium               
+NA        881        Boats to Save People        Medium               
+98        Validate Binary Search Tree        Medium               
+NA        547        Friend Circles        Medium               
+NA        211        Add and Search Word - Data structure design        Medium               
+NA        277        Find the Celebrity        Medium               
+207        Course Schedule        Medium               
+NA        4        Median of Two Sorted Arrays        Hard               
+353        Design Snake Game        Medium               
+72        Edit Distance        Hard               
+NA        1279        Traffic Light Controlled Intersection        Easy               
+939        Minimum Area Rectangle        Medium               
+NA        1214        Two Sum BSTs        Medium               
+NA        388        Longest Absolute File Path        Medium               
+NA 0313        997        Find the Town Judge        Easy               
+NA        409        Longest Palindrome        Easy               
+NA        384        Shuffle an Array        Medium               
+208        Implement Trie (Prefix Tree)        Medium               
+NA        640        Solve the Equation        Medium               
+NA        387        First Unique Character in a String        Easy               
+NA        192        Word Frequency        Medium               
+84        Largest Rectangle in Histogram        Hard               
+NA        678        Valid Parenthesis String        Medium               
+105        Construct Binary Tree from Preorder and Inorder Traversal        Medium               
+NA        93        Restore IP Addresses        Medium               
+NA        445        Add Two Numbers II        Medium               
+NA        1010        Pairs of Songs With Total Durations Divisible by 60        Easy               
+NA        323        Number of Connected Components in an Undirected Graph        Medium               
+215        Kth Largest Element in an Array        Medium               
+NA        135        Candy        Hard               
+218        The Skyline Problem        Hard               
+560        Subarray Sum Equals K        Medium               
+NA        690        Employee Importance        Easy               
+399        Evaluate Division        Medium               
+NA        341        Flatten Nested List Iterator        Medium               
+NA        966        Vowel Spellchecker        Medium               
+NA        32        Longest Valid Parentheses        Hard               
+1032        Stream of Characters        Hard               
+336        Palindrome Pairs        Hard               
+287        Find the Duplicate Number        Medium               
+NA        995        Minimum Number of K Consecutive Bit Flips        Hard               
+NA        48        Rotate Image        Medium               
+NA        187        Repeated DNA Sequences        Medium               
+NA        102        Binary Tree Level Order Traversal        Medium               
+NA        518        Coin Change 2        Medium               
+63        Unique Paths II        Medium               
+227        Basic Calculator II        Medium               
+36        Valid Sudoku        Medium               
+307        Range Sum Query - Mutable        Medium               
+489        Robot Room Cleaner        Hard               
+NA        794        Valid Tic-Tac-Toe State        Medium               
+41        First Missing Positive        Hard               
+1060        Missing Element in Sorted Array        Medium               
+NA        992        Subarrays with K Different Integers        Hard               
+NA        321        Create Maximum Number        Hard               
+1219        Path with Maximum Gold        Medium               
+153        Find Minimum in Rotated Sorted Array        Medium               
+NA        270        Closest Binary Search Tree Value        Easy               
+300        Longest Increasing Subsequence        Medium               
+128        Longest Consecutive Sequence        Hard               
+NA        987        Vertical Order Traversal of a Binary Tree        Medium               
+NA        703        Kth Largest Element in a Stream        Easy               
+737        Sentence Similarity II        Medium               
+NA        1091        Shortest Path in Binary Matrix        Medium               
+543        Diameter of Binary Tree        Easy               
+NA        100        Same Tree        Easy               
+498        Diagonal Traverse        Medium               
+78        Subsets        Medium               
+1188        Design Bounded Blocking Queue        Medium               
+NA        59        Spiral Matrix II        Medium               
+410        Split Array Largest Sum        Hard               
+317        Shortest Distance from All Buildings        Hard               
+NA        234        Palindrome Linked List        Easy               
+50        Pow(x, n)        Medium               
+785        Is Graph Bipartite?        Medium               
+165        Compare Version Numbers        Medium               
+150        Evaluate Reverse Polish Notation        Medium               
+NA        1024        Video Stitching        Medium               
+56        Merge Intervals        Medium               
+NA        468        Validate IP Address        Medium               
+221        Maximal Square        Medium               
+NA        106        Construct Binary Tree from Inorder and Postorder Traversal        Medium               
+315        Count of Smaller Numbers After Self        Hard               
+NA        1229        Meeting Scheduler        Medium               
+284        Peeking Iterator        Medium               
+NA        378        Kth Smallest Element in a Sorted Matrix        Medium               
+NA        529        Minesweeper        Medium               
+NA        57        Insert Interval        Hard               
+NA        37        Sudoku Solver        Hard               
+22        Generate Parentheses        Medium               
+NA        525        Contiguous Array        Medium               
+480        Sliding Window Median        Hard               
+NA        1202        Smallest String With Swaps        Medium               
+632        Smallest Range Covering Elements from K Lists        Hard               
+NA        702        Search in a Sorted Array of Unknown Size        Medium               
+721        Accounts Merge        Medium               
+NA        1120        Maximum Average Subtree        Medium               
+NA        516        Longest Palindromic Subsequence        Medium               
+NA        419        Battleships in a Board        Medium               
+NA        1104        Path In Zigzag Labelled Binary Tree        Medium               
+18        4Sum        Medium               
+55        Jump Game        Medium               
+NA        542        01 Matrix        Medium               
+NA        787        Cheapest Flights Within K Stops        Medium               
+NA        101        Symmetric Tree        Easy               
+351        Android Unlock Patterns        Medium               
+NA        653        Two Sum IV - Input is a BST        Easy               
+NA        52        N-Queens II        Hard               
+NA        463        Island Perimeter        Easy               
+NA        123        Best Time to Buy and Sell Stock III        Hard               
+96        Unique Binary Search Trees        Medium               
+417        Pacific Atlantic Water Flow        Medium               
+340        Longest Substring with At Most K Distinct Characters        Hard               
+NA        312        Burst Balloons        Hard               
+662        Maximum Width of Binary Tree        Medium               
+647        Palindromic Substrings        Medium               
+NA        390        Elimination Game        Medium               
+NA        44        Wildcard Matching        Hard               
+NA        407        Trapping Rain Water II        Hard               
+88        Merge Sorted Array        Easy               
+394        Decode String        Medium               
+373        Find K Pairs with Smallest Sums        Medium               
+528        Random Pick with Weight        Medium               
+NA        621        Task Scheduler        Medium               
+NA        1275        Find Winner on a Tic Tac Toe Game        Easy               
+39        Combination Sum        Medium               
+NA        368        Largest Divisible Subset        Medium               
+NA        199        Binary Tree Right Side View        Medium               
+NA        352        Data Stream as Disjoint Intervals        Hard               
+NA        82        Remove Duplicates from Sorted List II        Medium               
+NA        1161        Maximum Level Sum of a Binary Tree        Medium               
+46        RangeSumQuery2DImmutable        Medium               
+NA        1002        Find Common Characters        Easy               
+NA        836        Rectangle Overlap        Easy               
+NA        735        Asteroid Collision        Medium               
+NA        339        Nested List Weight Sum        Easy               
+31        Next Permutation        Medium               
+NA        1130        Minimum Cost Tree From Leaf Values        Medium               
+117        Populating Next Right Pointers in Each Node II        Medium               
+242        Valid Anagram        Easy               
+NA        698        Partition to K Equal Sum Subsets        Medium               
+NA        695        Max Area of Island        Medium               
+75        Sort Colors        Medium               
+NA        741        Cherry Pickup        Hard               
+286        Walls and Gates        Medium               
+NA        272        Closest Binary Search Tree Value II        Hard               
+130        Surrounded Regions        Medium               
+708        Insert into a Sorted Circular Linked List        Medium               
+895        Maximum Frequency Stack        Hard               
+354        Russian Doll Envelopes        Hard               
+76        Minimum Window Substring        Hard               
+10        Regular Expression Matching        Hard               
+NA        70        Climbing Stairs        Easy               
+NA        969        Pancake Sorting        Medium               
+636        Exclusive Time of Functions        Medium               
+1143        Longest Common Subsequence        Medium               
+NA        539        Minimum Time Difference        Medium               
+NA        71        Simplify Path        Medium               
+228        Summary Ranges        Medium               
+NA        974        Subarray Sums Divisible by K        Medium               
+NA        1122        Relative Sort Array        Easy               
+NA        154        Find Minimum in Rotated Sorted Array II        Hard               
+169        Majority Element        Easy               
+NA        81        Search in Rotated Sorted Array II        Medium               
+85        Maximal Rectangle        Hard               
+NA        6        ZigZag Conversion        Medium               
+NA        19        Remove Nth Node From End of List        Medium               
+222        Count Complete Tree Nodes        Medium               
+NA        25        Reverse Nodes in k-Group        Hard               
+NA        132        Palindrome Partitioning II        Hard               
+62        Unique Paths        Medium               
+1007        Minimum Domino Rotations For Equal Row        Medium               
+NA        179        Largest Number        Medium               
+NA        1046        Last Stone Weight        Easy               
+NA        13        Roman to Integer        Easy               
+NA        509        Fibonacci Number        Easy               
+NA        83        Remove Duplicates from Sorted List        Easy               
+NA        426        Convert Binary Search Tree to Sorted Doubly Linked List        Medium               
+122        Best Time to Buy and Sell Stock II        Easy               
+NA        257        Binary Tree Paths        Easy               
+362        Design Hit Counter        Medium               
+NA        1094        Car Pooling        Medium               
+337        House Robber III        Medium               
+NA        688        Knight Probability in Chessboard        Medium               
+NA        252        Meeting Rooms        Easy               
+68        Text Justification        Hard               
+115        Distinct Subsequences        Hard               
+NA        350        Intersection of Two Arrays II        Easy               
+977        Squares of a Sorted Array        Easy               
+NA        160        Intersection of Two Linked Lists        Easy               
+NA        112        Path Sum        Easy               
+NA        73        Set Matrix Zeroes        Medium               
+NA        114        Flatten Binary Tree to Linked List        Medium               
+NA        47        Permutations II        Medium               
+NA        345        Reverse Vowels of a String        Easy               
+652        Find Duplicate Subtrees        Medium               
+NA        701        Insert into a Binary Search Tree        Medium               
+NA        217        Contains Duplicate        Easy               
+NA        141        Linked List Cycle        Easy               
+332        Reconstruct Itinerary        Medium               
+NA        250        Count Univalue Subtrees        Medium               
+801        Minimum Swaps To Make Sequences Increasing        Medium               
+NA        235        Lowest Common Ancestor of a Binary Search Tree        Easy               
+134        Gas Station        Medium               
+310        Minimum Height Trees        Medium               
+NA        716        Max Stack        Easy               
+NA        1019        Next Greater Node In Linked List        Medium               
+94        Binary Tree Inorder Traversal        Medium               
+NA        1022        Sum of Root To Leaf Binary Numbers        Easy               
+NA        110        Balanced Binary Tree        Easy               
+14        Longest Common Prefix        Easy               
+NA        395        Longest Substring with At Least K Repeating Characters        Medium               
+NA        538        Convert BST to Greater Tree        Easy               
+NA        61        Rotate List        Medium               
+NA        415        Add Strings        Easy               
+205        Isomorphic Strings        Easy               
+163        Missing Ranges        Medium               
+NA        541        Reverse String II        Easy               
+NA        261        Graph Valid Tree        Medium               
+NA        442        Find All Duplicates in an Array        Medium               
+NA        684        Redundant Connection        Medium               
+NA        671        Second Minimum Node In a Binary Tree        Easy               
+852        Peak Index in a Mountain Array        Easy               
+NA        92        Reverse Linked List II        Medium               
+NA        90        Subsets II        Medium               
+NA        403        Frog Jump        Hard               
+152        Maximum Product Subarray        Medium               
+1197        Minimum Knight Moves        Medium               
+849        Maximize Distance to Closest Person        Easy               
+349        Intersection of Two Arrays        Easy               
+113        Path Sum II        Medium               
+8        String to Integer (atoi)        Medium               
+202        Happy Number        Easy               
+NA        24        Swap Nodes in Pairs        Medium               
+167        Two Sum II - Input array is sorted        Easy               
+NA        1160        Find Words That Can Be Formed by Characters        Easy               
+392        Is Subsequence        Easy               
+NA        268        Missing Number        Easy               
+NA        69        Sqrt(x)        Easy               
+438        Find All Anagrams in a String        Medium               
+NA        1004        Max Consecutive Ones III        Medium               
+40        Combination Sum II        Medium               
+NA        189        Rotate Array        Easy               
+NA        334        Increasing Triplet Subsequence        Medium               
+NA        637        Average of Levels in Binary Tree        Easy               
+NA        51        N-Queens        Hard               
+NA        559        Maximum Depth of N-ary Tree        Easy               
+NA        993        Cousins in Binary Tree        Easy               
+145        Binary Tree Postorder Traversal        Hard               
+16        3Sum Closest        Medium               
+149        Max Points on a Line        Hard               
+304        Range Sum Query 2D - Immutable        Medium               
+34        Find First and Last Position of Element in Sorted Array        Medium               
+NA        451        Sort Characters By Frequency        Medium               
+NA        204        Count Primes        Easy               
+567        Permutation in String        Medium               
+459        Repeated Substring Pattern        Easy               
+329        Longest Increasing Path in a Matrix        Hard               
+162        Find Peak Element        Medium               
+NA        230        Kth Smallest Element in a BST        Medium               
+NA        29        Divide Two Integers        Medium               
+NA        28        Implement strStr()        Easy               
+NA        301        Remove Invalid Parentheses        Hard               
+299        Bulls and Cows        Easy               
+NA        120        Triangle        Medium               
+NA        485        Max Consecutive Ones        Easy               
+430        Flatten a Multilevel Doubly Linked List        Medium               
+NA        523        Continuous Subarray Sum        Medium               
+283        Move Zeroes        Easy               
+NA        338        Counting Bits        Medium               
+NA        905        Sort Array By Parity        Easy               
+67        Add Binary        Easy               
+226        Invert Binary Tree        Easy               
+136        Single Number        Easy               
+NA        557        Reverse Words in a String III        Easy               
+NA        1299        Replace Elements with Greatest Element on Right Side        Easy               
+NA        232        Implement Queue using Stacks        Easy               
+NA        1249        Minimum Remove to Make Valid Parentheses        Medium               
+NA        876        Middle of the Linked List        Easy               
+104        Maximum Depth of Binary Tree        Easy               
+NA        183        Customers Who Never Order        Easy               
+198        House Robber        Easy               
+NA        107        Binary Tree Level Order Traversal II        Easy               
+NA        151        Reverse Words in a String        Medium               
+43        Multiply Strings        Medium               
+NA        938        Range Sum of BST        Easy               
+NA        617        Merge Two Binary Trees        Easy               
+412        Fizz Buzz        Easy               
+344        Reverse String        Easy               
+237        Delete Node in a Linked List        Easy               
+NA        1108        Defanging an IP Address        Easy               
+NA        125        Valid Palindrome        Easy               
+7        Reverse Integer        Easy               
+
+microsoft:
+1239        Maximum Length of a Concatenated String with Unique Characters        Medium
+273        Integer to English Words        Hard
+138        Copy List with Random Pointer        Medium
+5        Longest Palindromic Substring        Medium
+794        Valid Tic-Tac-Toe State        Medium
+134        Gas Station        Medium
+348        Design Tic-Tac-Toe        Medium
+42        Trapping Rain Water        Hard
+146        LRU Cache        Medium
+200        Number of Islands        Medium
+151        Reverse Words in a String        Medium
+103        Binary Tree Zigzag Level Order Traversal        Medium
+25        Reverse Nodes in k-Group        Hard
+98        Validate Binary Search Tree        Medium
+428        Serialize and Deserialize N-ary Tree        Hard
+105        Construct Binary Tree from Preorder and Inorder Traversal        Medium
+510        Inorder Successor in BST II        Medium
+22        Generate Parentheses        Medium
+443        String Compression        Easy
+206        Reverse Linked List        Easy
+1        Two Sum        Easy
+297        Serialize and Deserialize Binary Tree        Hard
+909        Snakes and Ladders        Medium
+232        Implement Queue using Stacks        Easy
+1185        Day of the Week        Easy
+116        Populating Next Right Pointers in Each Node        Medium
+8        String to Integer (atoi)        Medium
+218        The Skyline Problem        Hard
+127        Word Ladder        Medium
+679        24 Game        Hard
+54        Spiral Matrix        Medium
+93        Restore IP Addresses        Medium
+23        Merge k Sorted Lists        Hard
+557        Reverse Words in a String III        Easy
+470        Implement Rand10() Using Rand7()        Medium
+44        Wildcard Matching        Hard
+236        Lowest Common Ancestor of a Binary Tree        Medium
+124        Binary Tree Maximum Path Sum        Hard
+445        Add Two Numbers II        Medium
+99        Recover Binary Search Tree        Hard
+1044        Longest Duplicate Substring        Hard
+212        Word Search II        Hard
+33        Search in Rotated Sorted Array        Medium
+340        Longest Substring with At Most K Distinct Characters        Hard
+836        Rectangle Overlap        Easy
+457        Circular Array Loop        Medium
+56        Merge Intervals        Medium
+21        Merge Two Sorted Lists        Easy
+46        Permutations        Medium
+121        Best Time to Buy and Sell Stock        Easy
+225        Implement Stack using Queues        Easy
+37        Sudoku Solver        Hard
+722        Remove Comments        Medium
+772        Basic Calculator III        Hard
+135        Candy        Hard
+535        Encode and Decode TinyURL        Medium
+642        Design Search Autocomplete System        Hard
+48        Rotate Image        Medium
+2        Add Two Numbers        Medium
+53        Maximum Subarray        Easy
+688        Knight Probability in Chessboard        Medium
+556        Next Greater Element III        Medium
+204        Count Primes        Easy
+540        Single Element in a Sorted Array        Medium
+450        Delete Node in a BST        Medium
+622        Design Circular Queue        Medium
+10        Regular Expression Matching        Hard
+449        Serialize and Deserialize BST        Medium
+240        Search a 2D Matrix II        Medium
+165        Compare Version Numbers        Medium
+3        Longest Substring Without Repeating Characters        Medium
+49        Group Anagrams        Medium
+153        Find Minimum in Rotated Sorted Array        Medium
+468        Validate IP Address        Medium
+74        Search a 2D Matrix        Medium
+173        Binary Search Tree Iterator        Medium
+155        Min Stack        Easy
+207        Course Schedule        Medium
+148        Sort List        Medium
+285        Inorder Successor in BST        Medium
+140        Word Break II        Hard
+189        Rotate Array        Easy
+767        Reorganize String        Medium
+4        Median of Two Sorted Arrays        Hard
+143        Reorder List        Medium
+168        Excel Sheet Column Title        Easy
+322        Coin Change        Medium
+863        All Nodes Distance K in Binary Tree        Medium
+68        Text Justification        Hard
+36        Valid Sudoku        Medium
+419        Battleships in a Board        Medium
+545        Boundary of Binary Tree        Medium
+269        Alien Dictionary        Hard
+636        Exclusive Time of Functions        Medium
+17        Letter Combinations of a Phone Number        Medium
+238        Product of Array Except Self        Medium
+460        LFU Cache        Hard
+102        Binary Tree Level Order Traversal        Medium
+387        First Unique Character in a String        Easy
+117        Populating Next Right Pointers in Each Node II        Medium
+1145        Binary Tree Coloring Game        Medium
+32        Longest Valid Parentheses        Hard
+239        Sliding Window Maximum        Hard
+727        Minimum Window Subsequence        Hard
+543        Diameter of Binary Tree        Easy
+76        Minimum Window Substring        Hard
+20        Valid Parentheses        Easy
+73        Set Matrix Zeroes        Medium
+75        Sort Colors        Medium
+277        Find the Celebrity        Medium
+528        Random Pick with Weight        Medium
+15        3Sum        Medium
+125        Valid Palindrome        Easy
+1004        Max Consecutive Ones III        Medium
+680        Valid Palindrome II        Easy
+572        Subtree of Another Tree        Easy
+347        Top K Frequent Elements        Medium
+295        Find Median from Data Stream        Hard
+92        Reverse Linked List II        Medium
+41        First Missing Positive        Hard
+253        Meeting Rooms II        Medium
+24        Swap Nodes in Pairs        Medium
+128        Longest Consecutive Sequence        Hard
+224        Basic Calculator        Hard
+969        Pancake Sorting        Medium
+509        Fibonacci Number        Easy
+695        Max Area of Island        Medium
+186        Reverse Words in a String II        Medium
+381        Insert Delete GetRandom O(1) - Duplicates allowed        Hard
+567        Permutation in String        Medium
+317        Shortest Distance from All Buildings        Hard
+13        Roman to Integer        Easy
+703        Kth Largest Element in a Stream        Easy
+179        Largest Number        Medium
+426        Convert Binary Search Tree to Sorted Doubly Linked List        Medium
+490        The Maze        Medium
+45        Jump Game II        Hard
+126        Word Ladder II        Hard
+234        Palindrome Linked List        Easy
+706        Design HashMap        Easy
+79        Word Search        Medium
+438        Find All Anagrams in a String        Medium
+717        1-bit and 2-bit Characters        Easy
+328        Odd Even Linked List        Medium
+284        Peeking Iterator        Medium
+199        Binary Tree Right Side View        Medium
+268        Missing Number        Easy
+266        Palindrome Permutation        Easy
+88        Merge Sorted Array        Easy
+243        Shortest Word Distance        Easy
+472        Concatenated Words        Hard
+142        Linked List Cycle II        Medium
+729        My Calendar I        Medium
+1143        Longest Common Subsequence        Medium
+110        Balanced Binary Tree        Easy
+332        Reconstruct Itinerary        Medium
+158        Read N Characters Given Read4 II - Call multiple times        Hard
+287        Find the Duplicate Number        Medium
+412        Fizz Buzz        Easy
+311        Sparse Matrix Multiplication        Medium
+383        Ransom Note        Easy
+662        Maximum Width of Binary Tree        Medium
+104        Maximum Depth of Binary Tree        Easy
+406        Queue Reconstruction by Height        Medium
+403        Frog Jump        Hard
+402        Remove K Digits        Medium
+228        Summary Ranges        Medium
+84        Largest Rectangle in Histogram        Hard
+314        Binary Tree Vertical Order Traversal        Medium
+40        Combination Sum II        Medium
+149        Max Points on a Line        Hard
+721        Accounts Merge        Medium
+235        Lowest Common Ancestor of a Binary Search Tree        Easy
+63        Unique Paths II        Medium
+62        Unique Paths        Medium
+669        Trim a Binary Search Tree        Easy
+69        Sqrt(x)        Easy
+139        Word Break        Medium
+515        Find Largest Value in Each Tree Row        Medium
+210        Course Schedule II        Medium
+252        Meeting Rooms        Easy
+518        Coin Change 2        Medium
+346        Moving Average from Data Stream        Easy
+85        Maximal Rectangle        Hard
+987        Vertical Order Traversal of a Binary Tree        Medium
+981        Time Based Key-Value Store        Medium
+653        Two Sum IV - Input is a BST        Easy
+28        Implement strStr()        Easy
+286        Walls and Gates        Medium
+362        Design Hit Counter        Medium
+785        Is Graph Bipartite?        Medium
+129        Sum Root to Leaf Numbers        Medium
+378        Kth Smallest Element in a Sorted Matrix        Medium
+430        Flatten a Multilevel Doubly Linked List        Medium
+101        Symmetric Tree        Easy
+152        Maximum Product Subarray        Medium
+94        Binary Tree Inorder Traversal        Medium
+77        Combinations        Medium
+315        Count of Smaller Numbers After Self        Hard
+442        Find All Duplicates in an Array        Medium
+227        Basic Calculator II        Medium
+160        Intersection of Two Linked Lists        Easy
+219        Contains Duplicate II        Easy
+70        Climbing Stairs        Easy
+108        Convert Sorted Array to Binary Search Tree        Easy
+344        Reverse String        Easy
+39        Combination Sum        Medium
+1192        Critical Connections in a Network        Hard
+61        Rotate List        Medium
+560        Subarray Sum Equals K        Medium
+113        Path Sum II        Medium
+279        Perfect Squares        Medium
+100        Same Tree        Easy
+215        Kth Largest Element in an Array        Medium
+380        Insert Delete GetRandom O(1)        Medium
+26        Remove Duplicates from Sorted Array        Easy
+739        Daily Temperatures        Medium
+394        Decode String        Medium
+43        Multiply Strings        Medium
+114        Flatten Binary Tree to Linked List        Medium
+133        Clone Graph        Medium
+19        Remove Nth Node From End of List        Medium
+415        Add Strings        Easy
+14        Longest Common Prefix        Easy
+83        Remove Duplicates from Sorted List        Easy
+64        Minimum Path Sum        Medium
+91        Decode Ways        Medium
+300        Longest Increasing Subsequence        Medium
+973        K Closest Points to Origin        Medium
+78        Subsets        Medium
+50        Pow(x, n)        Medium
+242        Valid Anagram        Easy
+217        Contains Duplicate        Easy
+198        House Robber        Easy
+141        Linked List Cycle        Easy
+34        Find First and Last Position of Element in Sorted Array        Medium
+11        Container With Most Water        Medium
+7        Reverse Integer        Easy

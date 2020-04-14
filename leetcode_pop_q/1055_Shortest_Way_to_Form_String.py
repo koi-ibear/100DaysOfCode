@@ -14,29 +14,25 @@ copy2="az"
 copy3="a
 a=copy1+copy2+copy3
 """
-?????????
+
 class Solution:
     def shortestWay(self, target, source):
-        i, j, n, m = 0, 0, len(source), len(target)
-        n_sub = 0
-        j = 0
-        while j < m:
+        t, s, m, n = 0, 0, len(target), len(source)
+        n_substr = 0
+        while t < m:
+            t1 = t
             max_sub = 0
-            cur_sub = 0
-            while i < n:
-                if source[i] == target[j]:
-                    cur_sub += 1
+            s = 0
+            while s < n and t1 < m:
+                if target[t1] == source[s]:
+                    t1+=1 # move temp_t pointer to trace cur substr
                 else:
-                    cur_sub = 0
-                max_sub = max(max_sub, cur_sub)
-                print(max_sub)
-                i+=1
-            if i ==n and max_sub == 0:
+                    max_sub = max(max_sub, t1-t)
+                    t1 = t
+                s += 1 # s moves forward regardless, so add outside if condition
+            max_sub = max(max_sub, t1-t)
+            if max_sub==0:
                 return -1
-            j+= max_sub
-            n_sub += 1
-        return n_sub
-
-
-s = Solution()
-s.shortestWay('zaza','baz')
+            t+= max_sub
+            n_substr+=1
+        return n_substr

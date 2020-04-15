@@ -81,3 +81,18 @@ class Solution:
                 stack.append(node.left)
                 stack.append(node.right)
         return res[::-1]
+
+
+
+
+## Level Order Traversal
+class Solution:
+    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+        if not root:
+            return []
+        res = []
+        nodes = [root]
+        while nodes:
+            res.append([n.val for n in nodes])
+            nodes = [m for p in [(n.left, n.right) for n in nodes] for m in p if m]
+        return res

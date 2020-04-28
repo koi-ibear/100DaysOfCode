@@ -141,3 +141,90 @@ class Solution:
             return True
         sum -= root.val
         return self.hasPathSum(root.left, sum) or self.hasPathSum(root.right, sum)
+
+
+
+## Count Univalue Subtrees
+class Solution:
+    def countUnivalSubtrees(self, root):
+        self.count = 0
+        self.helper(root)
+        return self.count
+    def helper(self, node):
+        if not node:
+            return False
+        if not node.left and not node.right:
+            self.count += 1
+            return True
+        uni = True
+        if node.left:
+            uni = uni and self.helper(node.left) and node.val == node.left.val
+        if node.right:
+            uni = uni and self.helper(node.right) and node.val == node.right.val
+        self.count += uni
+        return uni  
+
+
+## Construct Binary Tree from Inorder and Postorder Traversal
+class Solution:
+    def linkNode(self, start, end):
+        if start > end:
+            return None
+        root = self.postorder.pop()
+        node = TreeNode(root)
+        ind = self.inorder_index[node.val]
+        node.right = self.linkNode(ind+1, end)
+        node.left= self.linkNode(start, ind-1)
+        return node
+        
+    def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
+        self.inorder_index = {j:i for i,j in enumerate(inorder)}
+        self.inorder = inorder
+        self.postorder = postorder
+        if not self.inorder or not self.postorder:
+            return None
+        return self.linkNode(0, len(postorder)-1)
+
+"""
+💬
+1. features of tree:
+    1.1. postorder last element is root, 
+    1.2. left and right to which in inorder are left & right nodes;
+2. as for stop rule, always think of base case: what if there's only 1 node in this tree
+"""
+
+## Construct Binary Tree from Preorder and Inorder Traversal
+class Solution:
+    def helper(self, start, end):
+        if start > end:
+            return None
+        node = TreeNode(self.preorder.pop(0))
+        in_idx = self.inorder_map[node.val]
+        node.left = self.helper(start, in_idx-1)
+        node.right = self.helper(in_idx+1, end)
+        return node
+        
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
+        if not preorder or not inorder:
+            return None
+        self.preorder = preorder
+        self.inorder = inorder
+        self.inorder_map = {j: i for i,j in enumerate(self.inorder)}
+        return self.helper(0, len(inorder)-1)
+
+
+## Populating Next Right Pointers in Each Node
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+        if not root:
+            return None
+        cur = root
+        next_ = cur.left
+        while next_:
+            cur.left.next = cur.right
+            if cur.next:
+                cur.right.next = cur.next.left
+                cur = cur.next
+            else:
+                cur = next_
+                next_ = cur.left

@@ -228,3 +228,76 @@ class Solution:
             else:
                 cur = next_
                 next_ = cur.left
+
+## Populating Next Right Pointers in Each Node II (unbalanced tree)
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+        orig = root
+        dumkid = kid = Node(0)
+        while root:
+            while root: # when root is none, stop
+                if root.left:
+                    kid.next =root.left
+                    kid = kid.next
+                if root.right:
+                    kid.next = root.right
+                    kid = kid.next
+                root = root.next
+            root = dumkid.next
+            dumkid = kid = Node(0)
+        return orig
+
+## Lowest Common Ancestor of a Binary Tree
+class Solution:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root:
+            return None
+        if root == p or root == q:
+            return root
+        left = right = None
+        if root.left:
+            left = self.lowestCommonAncestor(root.left, p, q)
+        if root.right:
+            right = self.lowestCommonAncestor(root.right, p, q)
+        if left and right:
+            return root
+        else:
+            return left or right
+
+##  Serialize and Deserialize Binary Tree
+class Codec:
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        def pre(node, res):
+            if node:
+                res.append(node.val)
+                pre(node.left, res)
+                pre(node.right, res)
+            else:
+                res.append('#')
+        res = []
+        pre(root, res)
+        return ' '.join([str(i) for i in res])
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        def pre():
+            val = next(it)
+            if val == '#':
+                return None
+            val = int(val)
+            node = TreeNode(val)
+            node.left = pre()
+            node.right = pre()
+            return node
+        it = iter(data.split(' '))
+        return pre()
+       

@@ -13,4 +13,21 @@ class Solution:
             if nums[i] == nums[i-1]:
                 return nums[i]
         return None
-            
+
+"""
+solution II:
+tortoise and hare
+"""
+class Solution:
+    def findDuplicate(self, nums: List[int]) -> int:
+        hare = tortoise = nums[0]
+        while True:
+            hare = nums[nums[hare]]
+            tortoise = nums[tortoise]
+            if hare == tortoise:
+                break
+        tortoise = nums[0]
+        while hare != tortoise:
+            hare = nums[hare]
+            tortoise = nums[tortoise]
+        return hare

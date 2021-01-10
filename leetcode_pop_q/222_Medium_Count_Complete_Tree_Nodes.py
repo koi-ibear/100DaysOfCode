@@ -26,7 +26,7 @@ class Solution:
         in complete binary tree, # nodes = 1 (root) + # left_nodes + # right_nodes
         if left tree is perfect (depth(left) = depth(right)):
           # left_nodes = 2**depth - 1
-          # right_nodes = recursively count nodes
+          # right_nodes = recursively count nodes until left == right (leaf)
         """
         if root is None:
             return 0
@@ -46,3 +46,11 @@ class Solution:
             return 0
         else:
             return self.countDepth(root.left) + 1
+
+
+"""
+complexity:
+since recurssion, repeated log(N)
+search tree depth costs log(N)
+hence O(log(N)**2)
+"""

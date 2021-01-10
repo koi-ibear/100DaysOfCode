@@ -22,12 +22,15 @@ class Solution:
         cur_swap = 1  # num of swaps needed to swap current element
         cur_fix = 0  # number of swaps needed to keep current element unchanged
         for i in range(1, len(A)):
+            # "must swap"
             if A[i] <= A[i-1] or B[i] <= B[i-1]: # i'th operation is opposite to i-1
                 temp = cur_swap
                 cur_swap = cur_fix + 1 # moves needed to keep i-1 fix + swap current pair
                 cur_fix = temp # moves needed to swap i-1 + 0 (keep current pair unchanged)
+            # "mustn't swap"
             elif A[i] <= B[i-1] or B[i] <= A[i-1]: # i'th operation is same as i-1
                 cur_swap += 1
+            # "whatever"
             else: # doesn't matter whether swap or not -- pick fewest moves
                 min_ = min(cur_swap, cur_fix)
                 cur_swap = min_ + 1

@@ -18,12 +18,18 @@ Explanation: 1 cannot be popped before 2.
 """
 class Solution:
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
-        stack = []
-        j = 0
-        max_j = len(popped)
+        stack = [] # use stack to track push&pull
+        j = 0 # pointer for popped
+        max_j = len(popped) # pointer must be in range of len(popped)
         for x in pushed:
             stack.append(x)
             while stack and stack[-1] == popped[j] and j < max_j:
                 stack.pop()
                 j += 1
         return j == len(popped)
+
+
+"""
+Time Complexity: O(N) because of one loop
+Space Complexity: O(N) because stack
+"""

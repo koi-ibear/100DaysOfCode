@@ -37,11 +37,11 @@ Output: false
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         def scan(s, p, px, pl): # current str, pattern, curent index in pattern
-            print(s, p, px)
+            # print(s, p, px)
             if s == '':
                 if (px==pl or p[-1] =='*' and px+2==pl): # [finish check] if nothing left on s return True
                     return True
-                if px + 2 < pl:
+                if px + 2 < pl and p[px+1]=='*':
                     return scan(s, p, px+2, pl)
             else:
                 res = False
@@ -62,8 +62,6 @@ class Solution:
                 return res
         pl = len(p)
         return scan(s, p, 0, pl)
-    
-    
     
 """
 logic:

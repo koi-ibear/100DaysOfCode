@@ -20,25 +20,17 @@ Output: 1
 """
 class Solution:
     def totalNQueens(self, n: int) -> int:
-        ans = []
-        
-        def placeQ(qy, cur_col, xy_sum, xy_diff):
+        self.ans = 0
+        def placeQ(qy, xy_sum, xy_diff):
             # print(qy)
             cur_row = len(qy)
             if cur_row == n:
-                if qy not in ans:
-                    ans.append(qy)
-                return True
+                self.ans+=1
+                return
 
-            if cur_col not in qy and cur_col + cur_row not in xy_sum and cur_row - cur_col not in xy_diff:
-                # qy = qy + (cur_col,)
-                # xy_diff.add(cur_row - cur_col)
-                cur_row += 1
-                for j in range(n):
-                    placeQ(qy + (cur_col,), j, xy_sum+[cur_row + cur_col], xy_diff+[cur_row - cur_col])
-        
-        for i in range(n):
-            placeQ(tuple(), i, [], [])
-        print(ans)
-        return len(ans)
-          
+            for j in range(n):
+                if j not in qy and j+cur_row not in xy_sum and cur_row-j not in xy_diff:
+                    
+                    placeQ(qy + (j,), xy_sum+[cur_row + j], xy_diff+[cur_row - j])
+        placeQ(tuple(), [], [])
+        return self.ans

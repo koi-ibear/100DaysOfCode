@@ -27,17 +27,38 @@ Input: candidates = [2], target = 1
 Output: []
 """
 class Solution:
+    # def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+    #     """
+    #     basic version
+    #     """
+    #     ans = []
+    #     def calcSum(chosen):
+    #         cur_sum = sum(chosen)
+    #         if cur_sum > target: # validility check
+    #             return False
+    #         if cur_sum == target: # stop rule
+    #             chosen = sorted(chosen)
+    #             if chosen not in ans:
+    #                 ans.append(chosen)
+    #         for c in candidates:
+    #             calcSum(chosen+[c])
+    #     calcSum([])
+    #     return ans
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        """
+        Optimized:
+            pass target, path and candidate in dfs
+            subtract candidate[i] from target
+            pass sum[i:] to next iter
+        """
         ans = []
-        def calcSum(chosen):
-            cur_sum = sum(chosen)
-            if cur_sum > target: # validility check
+        def calcSum(chosen, nums, target):
+            if target < 0:
                 return False
-            if cur_sum == target: # stop rule
-                chosen = sorted(chosen)
-                if chosen not in ans:
-                    ans.append(chosen)
-            for c in candidates:
-                calcSum(chosen+[c])
-        calcSum([])
+            if target == 0:
+                ans.append(chosen)
+                return
+            for i in range(len(nums)):
+                calcSum(chosen+[nums[i]], nums[i:], target-nums[i])
+        calcSum([], candidates, target)
         return ans

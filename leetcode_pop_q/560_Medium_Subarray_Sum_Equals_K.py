@@ -23,16 +23,20 @@ Constraints:
 """
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
-        def dfs(nums, k):
-            if k == 0:
-                return 1
-            if k < 0:
-                 return 0
-            n = len(nums)
-            ans = 0
-            for i in range(n):
-                for j in range(i+1, n):
-                    if dfs(nums[j:], k-sum(nums[i:j])):
-                        ans += 1
-            return ans
-        return dfs(nums,k)
+        csum = 0
+        sum_tracker = {0:1}
+        ans = 0
+        for i in nums:
+            csum += i # update running total
+            ans += sum_tracker.get(csum - k, 0)
+            sum_tracker[csum] = sum_tracker.get(csum,0)+1    
+        return ans
+
+"""
+Hash + runnint total
+as we move forward, keep track of running total,
+find if new answer found by tracker.get(running_tot - k)
+update tracker with current running total
+
+we need to initialize dict with {0:1} because when running_tot == k, we want it to return 1
+"""

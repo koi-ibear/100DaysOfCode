@@ -30,51 +30,36 @@ Each node in the tree has unique values 0 <= node.val <= 500.
 The target node is a node in the tree.
 0 <= K <= 1000.
 """
-class Solution2:
-    
-    def buildParentMap(self, node, parent, parentMap):
-        if node is None:
-            return
-        parentMap[node] = parent
-        self.buildParentMap(node.left, node, parentMap)
-        self.buildParentMap(node.right, node, parentMap)
+class Solution:
+    def distanceK(self, root: TreeNode, target: TreeNode, K: int) -> List[int]:
+        ## annotate parent w. dfs
+        def annoParent(node, parent):
+            if node:
+                node.par = parent
+                annoParent(node.left, node)
+                annoParent(node.right, node)
         
+        annoParent(root, None)
         
-    def distanceK(self, root, target, K):
-        """
-        :type root: TreeNode
-        :type target: TreeNode
-        :type K: int
-        :rtype: List[int]
-        """
-        # node: parent
-        parentMap = {}
-        
-        # DFS to build the map that maps a node to its parent.
-        self.buildParentMap(root, None, parentMap)
-       
-        # keep the records, since the graph is all connected
-        visited = set()
-        # results
-        ans = []
-       
-        # Again, DFS to retrieve the nodes within the given distance
-        #  this time with the help of the parentMap.
-        # Starting from the target node
-        def dfs(node, distance):
-            if node is None or node in visited:
-                return
+        q = collections.deque()
+        q.append((target, 0)) # add (target, distance_to_tar) to queue
+        seen = set()
+        seen.add(target)
+        while q:
+            # check if reach K
+            if q[-1][1] == K:
+                return [i[0].val for i in q]
+            node, dist = q.pop()
+            for nb in (node.left, node.right, node.par):
+                if nb and nb not in seen:
+                    q.appendleft((nb, dist+1))
+                    seen.add(nb)
+        return []
             
-            visited.add(node)
-            
-            if distance == K:
-                ans.append(node.val)
-            elif distance < K:
-                dfs(node.left, distance+1)
-                dfs(node.right, distance+1)
-                dfs(parentMap[node], distance+1)
-            # else exceed the scope, no need to explore further
-        
-        dfs(target, 0)
-        
-        return ans
+"""
+1. when find "neighbors" in binary tree, we need to know parent node
+2. neighbor: left, right, parent
+3. use dfs to annotate parent and bfs to find neighbors with certain distance
+4. trick: use q[-1] to peek what's the current distance
+5. trick: for seen set, add & check both happen when adding new nodes
+"""

@@ -1,14 +1,6 @@
 """
 Medium 310. Minimum Height Trees
 
-
-2872
-
-127
-
-Add to List
-
-Share
 A tree is an undirected graph in which any two vertices are connected by exactly one path. In other words, any connected graph without simple cycles is a tree.
 
 Given a tree of n nodes labelled from 0 to n - 1, and an array of n - 1 edges where edges[i] = [ai, bi] indicates that there is an undirected edge between the two nodes ai and bi in the tree, you can choose any node of the tree as the root. When you select a node x as the root, the result tree has height h. Among all possible rooted trees, those with minimum height (i.e. min(h))  are called minimum height trees (MHTs).
@@ -41,40 +33,35 @@ Output: [0,1]
 """
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
-
-        # base cases
-        if n <= 2:
-            return [i for i in range(n)]
-
-        # Build the graph with the adjacency list
-        neighbors = [set() for i in range(n)]
-        for start, end in edges:
-            neighbors[start].add(end)
-            neighbors[end].add(start)
-
-        # Initialize the first layer of leaves
+        ## create neighbors map -- use list index trick
+        neighbors = [set() for _ in range(n)]
+        for i,j in edges:
+            neighbors[i].add(j)
+            neighbors[j].add(i)
+            
+        ## find leaves
         leaves = []
-        for i in range(n):
-            if len(neighbors[i]) == 1:
+        for i,j in enumerate(neighbors):
+            if len(j) == 1:
                 leaves.append(i)
+        nodes_left = n
 
-        # Trim the leaves until reaching the centroids
-        remaining_nodes = n
-        while remaining_nodes > 2:
-            remaining_nodes -= len(leaves)
-            new_leaves = []
-            # remove the current leaves along with the edges
+        ## stop when there are 2 or fewer nodes left
+        while nodes_left > 2:
+            nodes_left = nodes_left - len(leaves)
+            newleaves = []
+            ## trim leaves & add new leaves to another layer
             while leaves:
                 leaf = leaves.pop()
-                # the only neighbor left for the leaf node
-                neighbor = neighbors[leaf].pop()
-                # remove the only edge left
-                neighbors[neighbor].remove(leaf)
-                if len(neighbors[neighbor]) == 1:
-                    new_leaves.append(neighbor)
-
-            # prepare for the next round
-            leaves = new_leaves
-
-        # The remaining nodes are the centroids of the graph
+                nb = neighbors[leaf].pop() # since leaf only has 1 neighbor, fetch it & see if it becomes a leaf
+                neighbors[nb].remove(leaf)
+                ## if leaf's neighbor becomes leaf, add to newleaves
+                if len(neighbors[nb]) == 1:
+                    newleaves.append(nb)
+            leaves = newleaves
         return leaves
+
+"""
+The idea is that we trim out the leaf nodes layer by layer, until we reach the core of the graph, which are the centroids nodes.
+Once we trim out the first layer of the leaf nodes (nodes that have only one connection), some of the non-leaf nodes would become leaf nodes.\
+"""

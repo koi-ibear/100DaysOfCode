@@ -23,6 +23,7 @@ Output: []
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         """
+        with recursion
         divide & conquer
         divide: use recursion to break list from the middle
         conquer: at the end of a divide, merge sort
@@ -52,3 +53,69 @@ class Solution:
         tmp.next = head0 or head1
         return ans.next
         
+
+
+class Solution:
+    """
+    without recursion (O(1) space)
+    """
+    def getSize(self, head):
+        """
+        find length of linked list. O(N)
+        """
+        res = 0
+        while head:
+            head = head.next
+            res += 1
+        return res
+        
+    def split(self, head, k):
+        """
+        split linked list with k elements from head
+        return k+1 element (disconnected from prev)
+        """
+        if not head: return None
+        i = 1
+        while i < k and head:
+            head = head.next
+            i += 1
+        if not head: return None
+        res = head.next
+        head.next = None
+        return res
+    
+    def merge(self, l, r, head):
+        """
+        merge left right at the end of head
+        return the last node after merge
+        """
+        tmp = head
+        while l and r:
+            if l.val < r.val:
+                tmp.next = l
+                l = l.next
+            else:
+                tmp.next = r
+                r = r.next
+            tmp = tmp.next
+        tmp.next = l or r
+        while tmp.next:
+            tmp = tmp.next
+        return tmp
+    
+    def sortList(self, head: ListNode) -> ListNode:
+        size = self.getSize(head)
+        step = 1
+        dummy = ListNode(0)
+        dummy.next = head
+        while step < size:
+            tmp = dummy
+            cur = dummy.next
+            while cur:
+                l = cur
+                r = self.split(l, step)
+                cur = self.split(r, step)
+                tmp = self.merge(l, r, tmp)
+            step = step * 2
+        return dummy.next
+

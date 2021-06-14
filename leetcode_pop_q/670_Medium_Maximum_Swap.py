@@ -17,11 +17,14 @@ Input: num = 9973
 Output: 9973
 Explanation: No swap.
  
-
-Constraints:
 """
 class Solution:
     def maximumSwap(self, num: int) -> int:
+        """
+        works similar with quick sort. move pointer forward
+        pick lowest on left forward and highest on right backward
+        if right > left, swap
+        """
         s = str(num)
         for i,j in enumerate(s):
             rmax = lmin = j

@@ -37,11 +37,15 @@ All the elements of nums are unique.
 """
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
+        """
+        dp
+        """
         dp = [0] * (target+1)
-        nums = [i for i in nums if i <= target]
-        if not nums: return 0
         for i in nums:
-            dp[i] = 1
+            if i <= target:
+                dp[i] = 1
         for i in range(target+1):
-            dp[i] += sum([(i-j >= 0) * dp[i-j] for j in nums])
+            for j in nums:
+                if j <= i:
+                    dp[i] += dp[i-j]
         return dp[-1]

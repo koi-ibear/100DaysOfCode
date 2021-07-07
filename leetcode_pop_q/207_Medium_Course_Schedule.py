@@ -76,7 +76,24 @@ class Solution:
         return num == numCourses
        
 
-
+class Solution:
+    # topological sorting
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        nextCourses = [[] for i in range(numCourses)]
+        degrees = [0 for i in range(numCourses)]
+        for _next, pre in prerequisites:
+            nextCourses[pre].append(_next)
+            degrees[_next] += 1
+        
+        q = collections.deque(_next for _next, degree in enumerate(degrees) if degree == 0)
+        while q:
+            pre = q.popleft()
+            for _next in nextCourses[pre]:
+                degrees[_next] -= 1
+                if degrees[_next] == 0:
+                    q.append(_next)
+        return sum(degrees) == 0
+            
 """
 this problem is equivalent to "find circle in the graph"
 
@@ -98,4 +115,11 @@ and flip visited flag to 1
 6. alter layer with new_layer
 7. repeat while loop until layer is empty
 8. return equality check between counter and numCourses
+
+** topological sorting **
+1. define prereq's next course in a list
+2. define degrees as # prereqs the course depends on (if no prereq, degree = 0)
+3. use queue to keep courses with degree 0
+4. for each course with prereq in queue, update its degree -1
+5. if all courses degree are 0s, it means all courses can be taken
 """

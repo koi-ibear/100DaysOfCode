@@ -48,3 +48,23 @@ class Solution:
             self.dfs(grid, i+1, j)
             self.dfs(grid, i, j-1)
             self.dfs(grid, i, j+1)
+
+class Solution:
+    """round 2"""
+    def numIslands(self, grid: List[List[str]]) -> int:
+        if not grid or not grid[0]: return
+        m, n = len(grid), len(grid[0])
+        
+        def dfs(i,j):
+            grid[i][j] = 'x'
+            for di, dj in [[0,1], [0,-1], [1,0], [-1,0]]:
+                if 0 <= i+di < m and 0 <= j+dj < n and grid[i+di][j+dj] == '1':
+                    dfs(i+di, j+dj)         
+            
+        ans = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == '1':
+                    dfs(i,j)
+                    ans += 1
+        return ans    

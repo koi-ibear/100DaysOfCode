@@ -29,3 +29,18 @@ class Solution:
             else:
                 ans[-1] = [ans[-1][0], max(ans[-1][1], i[1])]
         return ans
+
+
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        """R2"""
+        intervals.sort()
+        l, r = intervals[0]
+        ans = []
+        for a,b in intervals[1:]:
+            if a > r:
+                ans.append([l,r])
+                l, r = a,b
+            else:
+                r = max(r, b)
+        ans.append([l,r])
+        return ans

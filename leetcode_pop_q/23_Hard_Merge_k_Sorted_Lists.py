@@ -1,4 +1,5 @@
-”“”
+"""
+Hard 23. Merge k Sorted Lists
 Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
 
 Example:
@@ -10,7 +11,7 @@ Input:
   2->6
 ]
 Output: 1->1->2->3->4->4->5->6
-“”“
+"""
 
 from Queue import PriorityQueue
 class Solution(object):
@@ -32,3 +33,20 @@ class Solution(object):
             if node:
                 q.put((node.val, node))
         return head.next
+
+from heapq import *
+class Solution(object):
+    def mergeKLists(self, lists):
+        q = []
+        heapify(q)
+        for i in lists:
+            head = i
+            while head:
+                heappush(q, head.val)
+                head = head.next
+        ans = cur = ListNode(None)
+        while q:
+            cur.next = ListNode(heappop(q))
+            cur = cur.next
+        return ans.next
+        
